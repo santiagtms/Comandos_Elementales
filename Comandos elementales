@@ -1,0 +1,18 @@
+Instalar Git en la computadora, solo se va a usar el bash.
+
+Crear repositorio en GitHub.
+
+Iniciar sesion en bash, para eso, configuracion de usuario:
+git config --global user.name "santiagtms"
+git config --global user.email "santiagtms@gmail.com"
+git config --global --list
+  
+Clonar el repositorio en GitHub a repositorio local, para eso:
+git clone "URL"
+
+Con el repositorio clonado, los comandos mas comunes son:
+git status #this will show you what changes you have done
+git add [path/file] #this will prepare that specific file for commit, to add all files at once, use add .
+git commit -m "Change description" #this will commit the changes with specific description
+git push origin master #this will copy your changes to Github
+git pull origin master #Download the latest files from Github
